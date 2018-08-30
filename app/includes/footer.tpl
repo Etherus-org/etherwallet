@@ -1,7 +1,7 @@
 <section class="pre-footer">
   <div class="container">
     <p>
-      MyEtherWallet.com does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL.
+      Wallet.Etherus.org does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL.
       <a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal">
         You are responsible for your security.
       </a>
@@ -19,7 +19,7 @@
 
       <p>
         <span translate="FOOTER_1">
-          Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( myetherwallet.com ) before unlocking your wallet.
+          Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( wallet.etherus.org ) before unlocking your wallet.
         </span>
       </p>
 
@@ -99,8 +99,8 @@
 
     <section class="footer--righ">
       <p>
-        <a aria-label="website via my ether wallet dot com" href="https://www.MyEtherWallet.com" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
-          MyEtherWallet.com
+        <a aria-label="website via my ether wallet dot com" href="https://wallet.etherus.org" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          Wallet.Etherus.org
         </a>
       </p>
       <p>
@@ -114,13 +114,13 @@
         </a>
       </p>
       <p>
-        <a href="https://www.myetherwallet.com/helpers.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+        <a href="https://wallet.etherus.org/helpers.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           Unit Converters &amp; ENS Debugging
         </a>
       </p>
 
       <p>
-        <a href="https://www.myetherwallet.com/signmsg.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+        <a href="https://wallet.etherus.org/signmsg.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           Sign Message
         </a>
       </p>

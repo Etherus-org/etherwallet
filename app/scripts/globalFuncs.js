@@ -172,8 +172,8 @@ globalFuncs.stripTags = function(str) {
     return xssFilters.inHTMLData(str);
 };
 globalFuncs.checkAndRedirectHTTPS = function() {
-    var host = "myetherwallet.com";
-    var hostw = "https://www.myetherwallet.com";
+    var host = "mew.etherus.org";
+    var hostw = "https://wallet.etherus.org";
     var path = window.location.pathname;
     if (host == window.location.host) window.location = hostw + path;
 };
@@ -212,6 +212,7 @@ globalFuncs.getDefaultTokensAndNetworkType =  function getDefaultTokensAndNetwor
     var defaultNodes = require('./nodes').nodeList;
 
     var tokenMappings = {
+        'etr': require('./tokens/etrTokens.json'),
         'eth': require('./tokens/ethTokens.json'),
         'etc': require('./tokens/etcTokens.json'),
         'rop': require('./tokens/ropstenTokens.json'),

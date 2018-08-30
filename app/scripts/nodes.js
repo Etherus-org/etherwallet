@@ -4,6 +4,7 @@ nodes.customNode = require("./nodeHelpers/customNode");
 nodes.infuraNode = require("./nodeHelpers/infura");
 nodes.metamaskNode = require("./nodeHelpers/metamask");
 nodes.nodeTypes = {
+	ETR: "ETR",
 	ETH: "ETH",
 	ETC: "ETC",
 	Ropsten: "ROPSTEN ETH",
@@ -43,6 +44,18 @@ nodes.customNodeObj = {
 	lib: null
 };
 nodes.nodeList = {
+	etr_alpha: {
+		name: "ETR",
+		blockExplorerTX: "https://explorer.etherus.org/#/tx/[[txHash]]",
+		blockExplorerAddr: "https://explorer.etherus.org/#/address/[[address]]",
+		type: nodes.nodeTypes.ETR,
+		eip155: true,
+		chainId: 15,
+		tokenList: require("./tokens/etrTokens.json"),
+		abiList: require("./abiDefinitions/etrAbi.json"),
+		service: "alpha.etherus.org",
+		lib: new nodes.customNode("https://rpc-alpha.etherus.org", "")
+	},
 	eth_mew: {
 		name: "ETH",
 		blockExplorerTX: "https://etherscan.io/tx/[[txHash]]",

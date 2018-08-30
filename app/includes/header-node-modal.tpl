@@ -10,7 +10,7 @@
         <p class="small"><a href="https://myetherwallet.github.io/knowledge-base/networks/run-your-own-node-with-myetherwallet.html" target="_blank" rel="noopener noreferrer"> Instructions can be found here </a></p>
 
         <div ng-show="browserProtocol=='https:'" class="alert alert-danger small" translate="NODE_Warning">
-          Your node must be HTTPS in order to connect to it via MyEtherWallet.com. You can [download the MyEtherWallet repo & run it locally](https://github.com/kvhnuke/etherwallet/releases/latest) to connect to your local node. Or, get free SSL certificate via [LetsEncrypt](https://letsencrypt.org/)</a>.
+          Your node must be HTTPS in order to connect to it via Wallet.Etherus.org. You can [download the Wallet.Etherus.org repo & run it locally](https://github.com/dukei/etherwallet/releases/latest) to connect to your local node. Or, get free SSL certificate via [LetsEncrypt](https://letsencrypt.org/)</a>.
         </div>
 
         <section class="row">
@@ -48,6 +48,7 @@
           </div>
 
           <div class="clearfix col-xs-12 radio">
+            <label><input name="options" type="radio" ng-model="customNode.options" value="etr"> ETR </label>
             <label><input name="options" type="radio" ng-model="customNode.options" value="eth"> ETH </label>
             <label><input name="options" type="radio" ng-model="customNode.options" value="etc"> ETC </label>
             <label><input name="options" type="radio" ng-model="customNode.options" value="rop"> Ropsten </label>

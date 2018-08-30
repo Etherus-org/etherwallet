@@ -6,7 +6,7 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
     $scope.customNodeModal = document.getElementById('customNodeModal') ? new Modal(document.getElementById('customNodeModal')) : null;
     $scope.Validator = Validator;
     $scope.nodeList = nodes.nodeList;
-    $scope.defaultNodeKey = 'eth_mew';
+    $scope.defaultNodeKey = 'etr_alpha';
     $scope.customNode = { options: 'eth', name: '', url: '', port: '', httpBasicAuth: null, eip155: false, chainId: '' };
     $scope.customNodeCount = 0;
     $scope.nodeIsConnected = true;
@@ -136,6 +136,7 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
     $scope.addCustomNodeToList = function(nodeInfo) {
         var tempObj = null;
         if (nodeInfo.options == 'eth') tempObj = JSON.parse(JSON.stringify(nodes.nodeList.eth_ethscan));
+        else if (nodeInfo.options == 'etr') tempObj = JSON.parse(JSON.stringify(nodes.nodeList.etr_alpha));
         else if (nodeInfo.options == 'etc') tempObj = JSON.parse(JSON.stringify(nodes.nodeList.etc_epool));
         else if (nodeInfo.options == 'rop') tempObj = JSON.parse(JSON.stringify(nodes.nodeList.rop_mew));
         else if (nodeInfo.options == 'kov') tempObj = JSON.parse(JSON.stringify(nodes.nodeList.kov_ethscan));

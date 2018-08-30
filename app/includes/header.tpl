@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>MyEtherWallet.com</title>
-<meta property="og:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta property="og:site_name" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="twitter:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet.com: Your Key to Ethereum">
-<link href="https://www.myetherwallet.com" rel="canonical">
-<meta content="https://www.myetherwallet.com" property="og:url">
-<meta content="https://www.myetherwallet.com" name="twitter:url">
+<title>Wallet.Etherus.org</title>
+<meta property="og:title" content="Wallet.Etherus.org: Your Key to Ethereum">
+<meta property="og:site_name" content="Wallet.Etherus.org: Your Key to Ethereum">
+<meta name="twitter:title" content="Wallet.Etherus.org: Your Key to Ethereum">
+<meta name="apple-mobile-web-app-title" content="Wallet.Etherus.org: Your Key to Ethereum">
+<link href="https://wallet.etherus.org" rel="canonical">
+<meta content="https://wallet.etherus.org" property="og:url">
+<meta content="https://wallet.etherus.org" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
@@ -31,7 +31,7 @@
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://www.myetherwallet.com" />
+<meta property="og:url" content="https://wallet.etherus.org" />
 <meta property="og:title" content="MyEtherWallet.com  &middot; Your Key to Ethereum" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
@@ -48,17 +48,17 @@
 "@type" : "Organization",
 "name" : "MyEtherWallet",
 "legalName" : "MyEtherWallet Inc",
-"url" : "https://www.myetherwallet.com/",
+"url" : "https://wallet.etherus.org/",
 "contactPoint" : [{
   "@type" : "ContactPoint",
   "email" : "support@myetherwallet.com",
   "url"   : "https://myetherwallet.com",
   "contactType" : "customer service"
 }],
-"logo" : "https://www.myetherwallet.com/images/myetherwallet-logo.png",
+"logo" : "https://wallet.etherus.org/images/myetherwallet-logo.png",
 "description": "MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely.",
 "sameAs" : [
-  "https://www.myetherwallet.com/",
+  "https://wallet.etherus.org/",
   "https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
   "https://www.facebook.com/MyEtherWallet/",
   "https://twitter.com/myetherwallet",
@@ -80,15 +80,15 @@
     <div class="container">
       DON'T GET PHISHED, please! 🎣 Thank you! 🤗
       <br />
-      1. BOOKMARK <a href="https://www.myetherwallet.com"> MYETHERWALLET.COM </a>
-      <span class="hidden-xs">
+      1. BOOKMARK <a href="https://wallet.etherus.org"> WALLET.ETHERUS.ORG </a>
+      <!-- <span class="hidden-xs">
         &nbsp;&nbsp;&nbsp;&nbsp;
         2. INSTALL <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn" target="_blank" rel="noopener noreferrer">EAL</a>
         or
         <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html" target="_blank" rel="noopener noreferrer">MetaMask</a>
         or
         <a href="https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige" target="_blank" rel="noopener noreferrer">Cryptonite</a>
-      </span>
+      </span> -->
     </div>
   </div>
 }
