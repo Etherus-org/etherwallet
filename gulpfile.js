@@ -23,7 +23,7 @@ const zip          = require('gulp-zip');
 const html2js      = require('html2js-browserify');
 
 const app          = './app/';
-const dist         = './dist/';
+const dist         = './docs/';
 const dist_CX      = './chrome-extension/';
 
 
