@@ -44,17 +44,17 @@ nodes.customNodeObj = {
 	lib: null
 };
 nodes.nodeList = {
-	etr_alpha: {
+	etr_mainnet: {
 		name: "ETR",
 		blockExplorerTX: "https://explorer.etherus.org/#/tx/[[txHash]]",
 		blockExplorerAddr: "https://explorer.etherus.org/#/address/[[address]]",
 		type: nodes.nodeTypes.ETR,
 		eip155: true,
-		chainId: 15,
+		chainId: 32019,
 		tokenList: require("./tokens/etrTokens.json"),
 		abiList: require("./abiDefinitions/etrAbi.json"),
-		service: "alpha.etherus.org",
-		lib: new nodes.customNode("https://rpc-alpha.etherus.org", "")
+		service: "etherus.org",
+		lib: new nodes.customNode("https://rpc.etherus.org", "")
 	},
 	eth_mew: {
 		name: "ETH",

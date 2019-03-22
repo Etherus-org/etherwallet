@@ -47,11 +47,11 @@
 
     <section class="footer--cent">
         <h5> <i aria-hidden="true">👫</i> You can support us by supporting our blockchain-family.</h5>
-        <p>Consider using our affiliate links to...</p>
+        <!--<p>Consider using our affiliate links to...</p>
         <div class="footer__pill-wrap">
           <a class="footer__pill"  aria-label="Swap Ether or Bitcoin via Bity.com" href="https://bity.com/af/jshkb37v" target="_blank" rel="noopener noreferrer">Swap ETH/BTC/EUR/CHF via Bity.com</a>
           <a class="footer__pill"  aria-label="Buy Ether with credit card via Simplex" href="https://ccswap.myetherwallet.com" target="_blank" rel="noopener noreferrer">Buy ETH with credit card via Simplex</a>
-       </div>
+       </div>-->
         <p> Buy a... </p>
         <div class="footer__pill-wrap footer__pill-custom-wrap">
           <a class="footer__pill" href="https://www.ledgerwallet.com/r/fa4b?path=/products/" target="_blank" rel="noopener">Ledger Wallet</a>
@@ -61,7 +61,7 @@
           <a class="footer__pill" href="https://thehodlwallet.com?aff=15" target="_blank" rel="noopener">HODL Wallet</a>
           <a class="footer__pill" href="http://billfodl.com?afmc=2j&utm_campaign=2j&utm_source=leaddyno&utm_medium=affiliate" target="_blank" rel="noopener">Billfodl</a>
         </div>
-
+        <!--
         <h5><i aria-hidden="true">💝</i> Donations are always appreciated!</h5>
         <p>
           ETH:
@@ -80,6 +80,7 @@
           </a>
           </span>
         </p>
+        -->
         <!--
         <p>MYD: <span class="mono wrap">mewsupport.eth <small>0xf7e983781609012307f2514f63D526D83D24F466</small></span></p>
         -->
